@@ -8,5 +8,9 @@ category: WebServer 인증
 > JWT
 JWT(JSON Web Token) 는 웹 표준으로 데이터의 JSON객체를 사용하여 가볍고 자가 수용적인 방식으로 정보를 안전하게 전달할 수 있는 토큰 기반의 인증기반이다
 >
-> ㅁㅁㄴㅇㅁㄴ
+> JWT는 URL, HTTP Header, HTML Form과 같은 다양한 방식으로 전달할 수 있으며 서버와 클라이언트간의 인증정보를 포함한다
+>
+> JWT는 Header(JWT의 타입, 암호화 알고리즘을 포함하는 JSON), Payload(클레임 정보를 포함하고 JSON형식으로 인코딩된다, 클레임 정보는 사용자 ID, 권한들의
+> 정보를 포함), Sidnature( Header, Payload를 조합한 후, 비밀 키를 사용하여 생성된 서명 값, 서명값은 토큰의 무결성을 보장하고, JWT를 조작하지 않았다는걸 검증)
+> 
 
